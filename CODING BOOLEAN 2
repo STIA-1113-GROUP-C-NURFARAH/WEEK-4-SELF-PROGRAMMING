@@ -1,0 +1,16 @@
+package myScanner;
+
+public class Boolean2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int number1 = 11;
+		int number2 = 19;
+		boolean total = true;
+		
+		total = number1 < number2;
+		System.out.println ("Is number 1 is smaller than number 2?");
+		System.out.print(total);
+	}
+
+}
