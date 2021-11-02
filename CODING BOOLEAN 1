@@ -1,0 +1,19 @@
+package myScanner;
+
+public class Boolean1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		boolean iamcute = true;
+		boolean iamhandsome = false;
+		
+		System.out.println("Am I cute?");
+		System.out.println(iamcute);
+		
+		System.out.println("Am I handsome?");
+		System.out.println(iamhandsome);
+
+
+	}
+
+}
