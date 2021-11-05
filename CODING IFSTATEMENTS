@@ -1,0 +1,24 @@
+package selfProgramming;
+import java.util.Scanner;
+
+public class IfStatements {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+			Scanner myScan = new Scanner(System.in);
+			
+			System.out.println("Enter your salary: ");
+			int salary = myScan.nextInt();
+			
+			if(salary>50000) { 
+				System.out.println("try our PREMIUM PACKAGE!!!!!! PLEASAEAES!");
+			} else if(salary>40000) {
+				System.out.println("try our EXPANDED PACKAGE!!!!!! PLEASAEAES!");
+			} else if(salary>20000) {
+				System.out.println("try our AWESOME PACKAGE!!!!!! PLEASAEAES!");	
+			} else {
+				System.out.println("try our BASIC PACKAGE!!!!!! PLEASAEAES!");
+			}
+	}
+
+}
