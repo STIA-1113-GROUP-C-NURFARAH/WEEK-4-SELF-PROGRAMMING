@@ -1,0 +1,35 @@
+package selfProgramming;
+
+import java.lang.Math;
+
+public class MathClass1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub\\
+		
+		double maximum = (Math.max(3.3422345, 1.1241));
+		System.out.println("Maximum number is " + maximum);
+		System.out.println();
+		double squareroot = (Math.sqrt(17));
+		System.out.println("Square root number is " + squareroot);
+		System.out.println();
+		double large = (Math.ceil(2.3)); 
+		System.out.println("Largest integer is " + large);
+		System.out.println();
+		double small = (Math.floor(5.5));
+		System.out.println("Smallest integer is " + small);
+		System.out.println();
+		double rounded = (Math.round(2.5));
+		System.out.println("Rounded number is " + rounded);
+		System.out.println();
+		double power = (Math.pow(3, 5));
+		System.out.println("Three power of five is  " + power);
+		System.out.println();
+		double argument = (Math.abs(-2.8));
+		System.out.println("The " + argument + " is not a negative number");
+		
+		
+
+	}
+
+}
