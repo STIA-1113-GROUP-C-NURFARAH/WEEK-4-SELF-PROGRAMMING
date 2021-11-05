@@ -1,0 +1,23 @@
+package selfProgramming;
+
+import java.lang.Math;
+
+public class Fixed {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		double randoms = (Math.random());
+		System.out.println("Random number is " + randoms);
+		System.out.println();
+		double euler = (Math.E);
+		System.out.println("Euler's number is " + euler);
+		System.out.println();
+		double PI = (Math.PI);
+		System.out.println("PI is " + PI);
+		System.out.println();
+		
+		
+	}
+
+}
